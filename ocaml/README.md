@@ -19,7 +19,7 @@ It will install all the required dependencies for the project to run.
 
 This project relies on `dune`. To build it, run this command in your terminal:
 ```sh
-dune exec gilded_rose
+dune exec domain
 ```
 
 ### Testing

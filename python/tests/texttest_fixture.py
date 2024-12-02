@@ -1,7 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
+import sys
+import os
 
-from gilded_rose import *
+# Add the parent directory to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from domain.item import Item
+from domain.gilded_rose import GildedRose
+
 
 if __name__ == "__main__":
     print ("OMGHAI!")
